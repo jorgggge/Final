@@ -1,0 +1,63 @@
+#Cuerpo{
+
+}
+
+ul{
+	list-style-type: none;
+}
+
+#Tabla_Nav{
+	background-color: #4D5656;
+	width:100%;
+	height: 87%;
+	border-radius: 0px 0px 15px 15px;
+}
+
+#Tabla_Nav tr td{
+	color: white;
+	height: 100px;
+}
+
+#Tabla_Nav tr td img{
+	transition: transform .2s;
+}
+
+#Tabla_Nav tr td img:hover{
+	transform: scale(1.2);
+	cursor: pointer;
+}
+ 
+
+
+#M1,#M2,#M3,#M4,#M5,#M6,#M7,#M8{
+	width:95%;
+	margin-left: 2%; 
+	overflow: auto;
+	background: #B3B6B7;
+	border-radius: 15px;
+}
+
+#Nada img{
+	width:90%;
+}
+
+#Nada img:hover{
+	transform: scale(1.01);
+	cursor: default;
+}
+ 
+#Tabla_Info tr td{
+	color: black;
+}
+
+h1{
+	color: black;
+}
+
+#Pie{
+	position: absolute;
+	top: 1000px;
+	left: 5%;
+	width:90%;
+	height: 80px;
+}
